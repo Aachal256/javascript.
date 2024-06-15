@@ -13,27 +13,25 @@ console.log(otherNumber.toPrecision(4));    //O/P-  123.90
 
 
 
+ 
 
 // ++++++++++++++   MATHS   +++++++++++++++
 console.log(Math);
-console.log(Math.abs(-4));  //negative to positive o/p 4
+console.log(Math.abs(-4));  //negative to positive o/p 4  (abs-absulute value)
 
-console.log(Math.round(4.6));  //o/p- 5
+console.log(Math.round(4.6));  //o/p- 5 ((top value choose))
 
-console.log(Math.ceil(4.2));     //o/p- 5
+console.log(Math.ceil(4.2));     //o/p- 5  (top value choose)
 
-console.log(Math.floor(4.9));    //o/p- 4
+console.log(Math.floor(4.9));    //o/p- 4  (down value choose)
 
 console.log(Math.min(4,3,6,8));    //o/p- 3
 
 console.log(Math.max(4,6,3,8));     //o/p- 8
 
-console.log(Math.random());        //o/p- 0.9244130291127715
+console.log(Math.random());        //o/p- 0.9244130291127715 random value alws b/w 0 and 1
 
 console.log(Math.random()*10);      //o/p- 6.564637929950865
 
 console.log(Math.random()*10 + 1);       //o/p- 4.926055581136576
-
-
-
 
