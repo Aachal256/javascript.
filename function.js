@@ -13,14 +13,18 @@ C
 H
 A
 L
+
+
 */
 //************************************************************************ */
-function addTwonumbers(number1,number2){  //parameters
+function addTwonumbers(number1,number2){  //-- it is function defination //parameters
     console.log(number1+number2);
 }
-addTwonumbers(3,4);  //arguments  // 7
-//********************************************************************** */
+addTwonumbers(3,4);  // function calling ..//arguments  // 7
 
+
+
+//********************************************************************** */
 //after result no one print
 function addtwo(num1,num2){
     let result=num1+num2
@@ -39,10 +43,10 @@ function loginusermessage(username){
     return '${username} just logged in'
 }
 //console.log(loginusermessage("Anaya"))
-console.log(loginusermessage())  //${username} just logged in
+console.log(loginusermessage)  //${username} just logged in
 
-//********************************************************************* */
 
+//************************************************************************* */
 function loginuserMessage(username){
     if(username===undefined){
         console.log("please enter a username");
@@ -53,4 +57,21 @@ function loginuserMessage(username){
 console.log(loginuserMessage()) 
 /*
 o/p-  please enter a username
+
 undefined*/
+
+
+
+//******************************************************************************* */
+function loginuserMessage(username){
+    if(username===undefined){
+        console.log("please enter a username");
+        return 
+    }
+    return '${username} just logged in'
+}
+console.log(loginuserMessage()) 
+/*o/p
+please enter a username
+undefined
+*/
